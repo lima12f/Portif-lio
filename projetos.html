@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefólio|Projetos</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Estilos da área de projetos */
+        #projetos {
+            padding: 2rem;
+            background-color: #fff;
+            margin: 2rem 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #projetos h2 {
+            text-align: center;
+            color: #101c3c;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .projeto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin: 1rem 0;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .projeto:hover {
+            transform: scale(1.05);
+        }
+
+        .projeto h3 {
+            color: #101c3c;
+            font-size: 1.8rem;
+        }
+
+        .projeto p {
+            color: #666;
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+
+        .projeto a {
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            background-color: #ffcc00;
+            color: #101c3c;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .projeto a:hover {
+            transform: scale(1.1);
+            background-color: #ffc107;
+        }
+
+        /* Responsividade */
+        @media (min-width: 768px) {
+            .projeto {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 1.5rem;
+            }
+
+            .projeto img {
+                max-width: 200px;
+                border-radius: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diogo Menezes</h1>
+        <p>Estudante na área da Informática</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Projetos -->
+    <section id="projetos">
+        <h2>Projetos Realizados</h2>
+
+        <!-- Expolive -->
+        <div class="projeto">
+            <h3>Expolive</h3>
+            <p>Projeto que consistiu na elaboração de podcasts, visitas a stands, entrevistas e transmissão do torneio de CS durante a Expocolgaia</p>
+            <a href="expolive.html">Ver mais</a>
+        </div>
+
+        <!-- FlightBase -->
+        <div class="projeto">
+            <h3>FlightBase</h3>
+            <p>FlightBase é uma aplicação que permite ao utilizador guardar informações de voos, como detalhes a aeronave, companhia aérea e o destino.</p>
+            <a href="flightbase.html">Ver mais</a>
+        </div>
+
+        <!-- TravelShare -->
+        <div class="projeto">
+            <h3>TravelShare</h3>
+            <p>TravelShare é uma plataforma que permite aos utilizadores compartilhar experiências de viagens, dicas de destinos, transporte e atividades.</p>
+            <a href="TravelShare_PAP.html">Ver mais</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Diogo Menezes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

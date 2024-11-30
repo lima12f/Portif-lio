@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefólio|Expolive</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Estilos para a página do projeto Expolive */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #101c3c;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #descricao {
+            margin-bottom: 2rem;
+        }
+
+        #descricao h2 {
+            font-size: 2rem;
+            color: #101c3c;
+        }
+
+        #descricao p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .imagens {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .imagens img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .imagens img:hover {
+            transform: scale(1.05);
+        }
+
+        .redes-sociais {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .redes-sociais a {
+            margin: 0 1rem;
+            font-size: 2rem;
+            color: #101c3c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .redes-sociais a:hover {
+            color: #ffcc00;
+        }
+
+        /* Estilo do botão "Voltar" */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #101c3c;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 2rem;
+        }
+
+        .btn:hover {
+            background-color: #ffcc00;
+        }
+
+        /* Centraliza o botão na página */
+        .btn-container {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #101c3c;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Expolive - Projeto</h1>
+    </header>
+
+    <div class="container">
+        <!-- Descrição do projeto -->
+        <section id="descricao">
+            <h2>Descrição do Projeto</h2>
+            <p>A Expolive foi um projeto dinamizado por mim e mais 5 alunos do curso de Informática e Tecnologias
+                Multimédia que consistiu na realização de entrevistas, podcasts, transmissão do torneio de CS e do
+                concerto, bem como visitas a stands durante a semana da Expocolgaia (de 18 a 23 de março de 2024).
+                Todo este conteúdo foi publicado no Youtube, Instagram e Tiktok do projeto</p>
+            <p>Durante deste projeto, desenvolvi competências na área da multimédia e na área de streaming, como a criação de posters e publicações para as redes sociais do projeto, edição e vídeo e a captura de fotografias e vídeos utilizando câmeras fotográficas.</p>
+        </section>
+
+        <!-- Galeria de imagens -->
+        <section id="imagens">
+            <h2>Galeria de Imagens</h2>
+            <div class="imagens">
+                <img src="img/DSC_0604 (1).jpg" alt="Imagem do estúdio">
+                <img src="img/DSC_0610 (1).jpg" alt="Imagem do estúdio">
+                <img src="img/Multimédia (2).jpg" alt="Imagem do quadro de assinaturas dos participantes do projeto">
+            </div>
+        </section>
+
+        <!-- Redes sociais -->
+        <section class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <a href="https://www.instagram.com/_expolive_/" target="_blank">
+                <img src="img/Insta.svg" alt="Instagram" width="40">
+            </a>
+            <a href="https://www.tiktok.com/@_expolive_" target="_blank">
+                <img src="img/Tiktok.svg" alt="TikTok" width="40">
+            </a>
+            <a href="https://www.youtube.com/@EXPOLIVE24" target="_blank">
+                <img src="img/yt.svg" alt="YouTube" width="40">
+            </a>
+        </section>
+
+        <!-- Botão Voltar -->
+        <div class="btn-container">
+            <a href="projetos.html" class="btn">Voltar</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Diogo Menezes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
